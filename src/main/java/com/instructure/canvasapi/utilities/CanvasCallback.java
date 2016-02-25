@@ -6,6 +6,7 @@ import android.util.Log;
 
 import com.instructure.canvasapi.api.BuildInterfaceAPI;
 import com.instructure.canvasapi.model.CanvasError;
+import com.instructure.canvasapi.testUtilities.EspressoIdlingUtils;
 
 import java.io.Serializable;
 

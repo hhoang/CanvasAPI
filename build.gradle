@@ -75,8 +75,6 @@ dependencies {
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.robolectric:robolectric:3.0'
-
-    debugCompile 'com.android.support.test.espresso:espresso-idling-resource:2.2.1'
 }
 // Do some maven stuff
 apply plugin: 'maven'

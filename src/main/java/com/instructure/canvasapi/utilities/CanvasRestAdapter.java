@@ -8,6 +8,7 @@ import android.util.Log;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.instructure.canvasapi.model.CanvasContext;
+import com.instructure.canvasapi.testUtilities.EspressoIdlingUtils;
 import com.squareup.okhttp.Cache;
 import com.squareup.okhttp.Interceptor;
 import com.squareup.okhttp.OkHttpClient;
@@ -33,6 +34,7 @@ public class CanvasRestAdapter {
     private static int TIMEOUT_IN_SECONDS = 60;
 
     private static CanvasOkClient okHttpClient;
+
     public static int getNumberOfItemsPerPage() {
         return numberOfItemsPerPage;
     }
